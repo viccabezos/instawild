@@ -1,3 +1,5 @@
+     /* DEBUT CSS PARTIE STUDENT AVEC SCROLL DOWN + MEDIA QUERIES */
+
      *::after ::before { 
        
       box-sizing: border-box;
@@ -6,19 +8,19 @@
       body {
         padding: 0;
         margin: 0;
-        font-family: roboto, sans-serif;
+        font-family: 'Montserrat', sans-serif;
       }
-     
       header {
         padding: 20px;
         align-items: center;
         background-color:rgb(207, 104, 97);
-      
       }
 
+      .studentalls{
+        margin-top:8%;
+      }
       .student  {
         width: 100%;
-
       }
       .name {
         margin-bottom: 0;
@@ -26,9 +28,7 @@
         padding-bottom: 10px;
         margin-left: 10px;
         font-size:medium;
-
       }
-
       .photo {
         width: 100%;
         height:50vh;
@@ -45,29 +45,25 @@
         padding-left: 10px;
         padding-right: 10px;
       }
-
-
       .description{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        padding-bottom: 10%;
         text-align: justify;
+        padding-bottom: 8%;
+        padding-top: 3%;
         padding-left: 8%;
         padding-right: 10%;
-  
-      }
         
+      }
       .description h2 {
         align-items: flex-start;
         font-size:x-large;
         color:gray;
-       
+        padding-bottom: 2%;
       }
-
       .description p {
         margin: 0;
-      
       }
      
 /* CHANGE SCREEN WITH TABLETS */
@@ -76,35 +72,33 @@
         body {
           padding: 0;
           margin: 0;
-          font-family: roboto, sans-serif;
-        }
-       
-        
-        header {
-          padding: 20px;
-          align-items: center;
-          background-color: coral;
         
         }
-  
+      
+        .studentalls{
+          margin-top: 5%;
+        }
+        
+
       .student  {
         display: grid;
         grid-template-areas: 
                   "name logoslinks" 
                   "description photo" ;
         grid-template-columns: 1fr 6fr 6fr 1fr ;
-        border-bottom: 2px solid #dfdfdf;
         padding-bottom: 1rem;
         padding-top:1rem;
-       
+        border: 2px solid #dfdfdf;
+        margin-top:4%;
+      
         }
 
       .student .name{
         grid-area: name ;
         grid-column-start: 2;
         padding-top: 0;
-        align-self: ;
-      
+        align-self:end;
+        
       }
 
       .student .photo {
@@ -112,7 +106,6 @@
         grid-column-start: 3;
         height: 90%;
         padding-top: 5%;
-    
       }
 
       .student .logoslinks {
@@ -121,13 +114,18 @@
         grid-column-start: 3;
       }
 
+
         .student .description {
         grid-area: description;
-        grid-column-start: 2;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        grid-column-start: 2; 
+
       }
+
+      .student p {
+        padding-bottom: 6rem;
+      }
+
+  
       
       }
 
@@ -138,22 +136,14 @@
       body {
         padding: 0;
         margin: 0;
-        font-family: roboto, sans-serif;
-      }
-     
-      
-      header {
-        padding: 20px;
-        background-color: chartreuse;
       
       }
+
 
       .studentalls{
         display:grid;
         grid-template-areas: "student";
         grid-gap: 2rem; 
-       
-        
       }
 
       .student  {
@@ -167,9 +157,9 @@
         "description"
        ;
        border-bottom: 0px;
+       border: none;
+       margin-top: 0;
       }
-
-    
 
       .student .name {
         grid-area: name;
@@ -182,8 +172,6 @@
         padding-bottom: 5%;
         padding-top:5%;
         padding-left:5%;
-       
-
       }
 
       .student .photo {
@@ -196,10 +184,8 @@
         padding: 0;
         border-left: 2px solid #dfdfdf;
         border-right: 2px solid #dfdfdf;
-       
       }
      
-      
       .student .logoslinks{
         grid-area: logoslinks;
         grid-column-start: 2;
@@ -207,7 +193,6 @@
         padding-top: 3%;
         border-left: 2px solid #dfdfdf;
         border-right: 2px solid #dfdfdf;
-       
       }
 
       .logotailles{
@@ -229,8 +214,8 @@
         border-left: 2px solid #dfdfdf;
         border-right: 2px solid #dfdfdf;
         border-bottom: 2px solid #dfdfdf;
-       
-        
+      
+  
       }
    
       .description h2 {
@@ -242,21 +227,21 @@
         padding-bottom:5%;
         padding-left:10%;
         padding-right:10%;
-
-      
       }
       
 
       }
+
+       /* FIN CSS PARTIE STUDENT AVEC SCROLL DOWN + MEDIA QUERIES */
+       
+      /* DEBUT CSS PARTIE FOOTER + MEDIA QUERIES */
+
+
       before, ::after {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
     }
-    
-    
-    
-    
     
     footer {
         flex-shrink: 0;
@@ -388,6 +373,10 @@
     box-sizing: border-box;
 
 }
+
+    /* FIN CSS PARTIE FOOTER + MEDIA QUERIES */
+
+/* DEBUT CSS PARTIE NAV BAR + MEDIA QUERIES */
 
 /* This is the code for the NAV BAR */
 
@@ -552,11 +541,7 @@ nav{
 
     }
 
-<<<<<<< HEAD
-        .lavie  {
-=======
     .bulle {
->>>>>>> vic
         width: 55px;
         height: 55px;
         border-radius:50% ;
@@ -588,3 +573,5 @@ nav{
 
 
 /* INSTA STORY BAR ENDS HERE*/
+
+/* FIN CSS PARTIE NAVBAR + MEDIA QUERIES */
