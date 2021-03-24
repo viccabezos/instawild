@@ -1,6 +1,5 @@
-     *::after ::before { 
-       
-      box-sizing: border-box;
+*::after ::before {        
+  box-sizing: border-box;
      }
 
       body {
@@ -383,7 +382,6 @@
         }
     }
 * {
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
 
@@ -533,8 +531,11 @@ nav{
 
 .bulle {
     cursor: pointer;
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+        width: 50px;
+        height: 50px;
     border-radius:50% ;
     flex-shrink: 0;
     margin-top: 5px;
@@ -552,11 +553,7 @@ nav{
 
     }
 
-<<<<<<< HEAD
-        .lavie  {
-=======
-    .bulle {
->>>>>>> vic
+        .bulle {
         width: 55px;
         height: 55px;
         border-radius:50% ;
