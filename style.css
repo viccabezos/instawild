@@ -531,7 +531,7 @@ nav{
     z-index: 4;
 }
 
-img {
+.bulle {
     cursor: pointer;
     width: 50px;
     height: 50px;
@@ -552,7 +552,11 @@ img {
 
     }
 
+<<<<<<< HEAD
         .lavie  {
+=======
+    .bulle {
+>>>>>>> vic
         width: 55px;
         height: 55px;
         border-radius:50% ;
@@ -571,7 +575,7 @@ img {
 
     }
     
-    img {
+    .bulle {
         width: 55px;
         height: 55px;
         border-radius:50% ;
