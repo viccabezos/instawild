@@ -5,7 +5,7 @@
 
 }
 
-/* This is the code for the NAV BAR */
+/* This is the code for the NAV BAR ---------*/
 
     body {
         font-family: 'Montserrat', sans-serif;
@@ -140,9 +140,9 @@
     }
 
 
-/*NAV BAR ENDS HERE*/
+/*NAV BAR ENDS HERE---------------------------*/
 
-/*This is the code for INSTA STORY BAR*/
+/*This is the code for INSTA STORY BAR -----------------*/
 
     .container{
         max-width: 100vw;
@@ -203,4 +203,4 @@
     }
 
 
-/* INSTA STORY BAR ENDS HERE*/
+/* INSTA STORY BAR ENDS HERE-----------------------------*/
