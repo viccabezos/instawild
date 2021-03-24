@@ -146,6 +146,7 @@
         grid-gap: 2rem; 
       }
 
+    
       .student  {
         display: grid;
         grid-template-columns: 2fr 2fr 2fr;
@@ -159,6 +160,8 @@
        border-bottom: 0px;
        border: none;
        margin-top: 0;
+       border-bottom:rgba(0,0,0,0.1);
+
       }
 
       .student .name {
@@ -219,11 +222,11 @@
       }
    
       .description h2 {
-        padding-left:6rem;
+        margin-top: 5%;
+        padding-left:10%
       }
 
       .description p {
-        margin-top: 3%;
         padding-bottom:5%;
         padding-left:10%;
         padding-right:10%;
