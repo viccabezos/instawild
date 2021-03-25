@@ -10,11 +10,7 @@
         margin: 0;
         font-family: 'Montserrat', sans-serif;
       }
-      header {
-        padding: 20px;
-        align-items: center;
-        background-color:rgb(207, 104, 97);
-      }
+    
 
       .studentalls{
         margin-top:8%;
