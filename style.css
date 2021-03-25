@@ -1,21 +1,7 @@
-<<<<<<< HEAD
 *::after ::before { 
        
   box-sizing: border-box;
  }
-=======
-<<<<<<< HEAD
-     /* DEBUT CSS PARTIE STUDENT AVEC SCROLL DOWN + MEDIA QUERIES */
-
-     *::after ::before { 
-       
-      box-sizing: border-box;
-=======
-*::after ::before {        
-  box-sizing: border-box;
->>>>>>> vic
-     }
->>>>>>> vic
 
   body {
     padding: 0;
@@ -23,13 +9,7 @@
     font-family: 'Montserrat', sans-serif;
   }
 
-<<<<<<< HEAD
      /* DEBUT CSS PARTIE STUDENT AVEC SCROLL DOWN + MEDIA QUERIES */
-=======
-      }
-<<<<<<< HEAD
-      
->>>>>>> vic
       .student a {
         text-decoration: none;
         color: #000;
@@ -42,22 +22,12 @@
         text-decoration: underline pink;
       }
      
-=======
-     
-    
->>>>>>> vic
 
       .studentalls{
         margin-top:8%;
       }
       .student  {
-<<<<<<< HEAD
         width: 100%;   
-=======
-        width: 100%;
-
-/* This is the code for the NAV BAR ---------*/
->>>>>>> vic
       }
 
       .name {
@@ -110,7 +80,6 @@
         body {
           padding: 0;
           margin: 0;
-<<<<<<< HEAD
         
         }
       
@@ -119,14 +88,6 @@
         }
         
 
-=======
-          font-family: roboto, sans-serif;
-        }
-       
-        
-        
-  
->>>>>>> vic
       .student  {
         display: grid;
         grid-template-areas: 
@@ -181,16 +142,8 @@
       body {
         padding: 0;
         margin: 0;
-<<<<<<< HEAD
       
       }
-=======
-        font-family: roboto, sans-serif;
-      }
-     
-      
-     
->>>>>>> vic
 
 
       .studentalls{
@@ -393,7 +346,6 @@
             opacity: 1;
             transform: translateX(0px);
         }
-<<<<<<< HEAD
         to{
             opacity: 0;
             transform: translateX(50px);
@@ -427,289 +379,6 @@
       
       .bulle {
         cursor: pointer;
-=======
-    }
-* {
-    margin: 0;
-    box-sizing: border-box;
-
-}
-
-    /* FIN CSS PARTIE FOOTER + MEDIA QUERIES */
-
-/* DEBUT CSS PARTIE NAV BAR + MEDIA QUERIES */
-
-/* This is the code for the NAV BAR */
-
-body {
-    font-family: 'Montserrat', sans-serif;
-}
-
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color:#f65454;
-}
-
-.thelogo {
-    display: flex;
-    width: 150px;
-}
-
-.logo {
-    color: rgb(226, 226, 226);
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 20px;
-}
-
-.nav-links {
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-}
-
-.nav-links li {
-    list-style: none;
-}
-
-.nav-links a {
-    color: rgb(226, 226, 226);
-    text-decoration: none;
-    letter-spacing: 3px;
-    
-    font-size: 14px;
-    
-}
-
-.burger {
-    display: none;
-    cursor: pointer;
-}
-
-.burger > div {
-    width: 25px;
-    height: 2px;
-    background-color: rgb(226, 226, 226);
-    margin: 5px;
-    transition: all 0.3s ease;
-}
-
-
-@media screen and (max-width: 800px) {
-    body{
-        overflow-x: hidden;
-    }
-    .nav-links{
-        position: fixed;
-        right: 0px;
-        height: 30vh;
-        top: 8vh;
-        background-color:#f65454;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 40%;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
-        box-shadow: 0 2px 20px 0 rgba(0,0,0,0.1);
-    }
-    .nav-links li{
-        
-    }
-    .burger {
-        display: block;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    nav-links{
-        width: 60%;
-    }
-    
-}
-
-.nav-active{
-    transform: translateX(0%);
-}
-
-@keyframes navLinkFadeIn{
-    from{
-        opacity: 0;
-        transform: translateX(50px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-@keyframes navLinkFadeOut{
-    from{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-    to{
-        opacity: 0;
-        transform: translateX(50px);
-    }
-}
-
-.toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 5px);
-}
-
-.toggle .line2 {
-    opacity: 0;
-}
-
-.toggle .line3 {
-    transform: rotate(+45deg) translate(-5px, -5px);
-}
-
-
-/*NAV BAR ENDS HERE---------------------------*/
-
-/*This is the code for INSTA STORY BAR -----------------*/
-
-.container{
-    max-width: 100vw;
-    overflow-y:auto;
-    display:flex;
-    margin-top: 1vh;
-    
-}
-
-.bulle {
-    cursor: pointer;
-    width: 55px;
-    height: 55px;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    border-radius:50% ;
-    flex-shrink: 0;
-    
-    margin-right: 3px;
-    overflow-x: hidden;
-<<<<<<< HEAD
-    
-=======
->>>>>>> vic
-
-}
-.card{
-  margin-left: 1%;
-  margin-right: 1%;
-  margin-bottom: 15px;
-}
-.card1{
-  margin-left: 3%;
-  margin-right: 1%;
-  margin-bottom: 15px;
-}
-.card12{
-  
-  margin-right: 1%;
-  margin-bottom: 15px;
-}
-
-#some-element {
-  border: none;
-  display: none;
-  font-size: 16px;
-  margin-top: 2px;
-
-  
-}
-
-
-.card:hover #some-element {
-  position: relative;
-  display: block;
-  margin-top: 3px;
-  transition-duration: 1s;
-}
-.card1:hover #some-element {
-  position: relative;
-  display: block;
-  margin-top: 3px;
-  transition-duration: 1s;
-}
-.card12:hover #some-element {
-  position: relative;
-  display: block;
-  margin-top: 3px;
-  transition-duration: 1s;
-  
-}
-
-@media only screen and (min-width: 768px) {
-    .container{
-        max-width: 100vw;
-        display: flex;
-        justify-content: center;
-
-    }
-
-<<<<<<< HEAD
-    .bulle {
-=======
-        .bulle {
->>>>>>> vic
-        width: 55px;
-        height: 55px;
-        border-radius:50% ;
-        flex-shrink: 0;
-        margin-top: 5px;
-        margin-left: 2px;
-        margin-right: 1px;
-    }
-    .card{
-      margin-left: 1%;
-      margin-bottom: 15px;
-    }
-    .card1{
-      margin-left: 6%;
-    
-      margin-bottom: 15px;
-    }
-    .card12{
-      
-      margin-right: 4%;
-      margin-bottom: 15px;
-    }
-}
-.card:hover #some-element {
-  position: relative;
-  margin-top: 3px;
-  transition-duration: 1s;
-}
-.card1:hover #some-element {
-  position: relative;
-  margin-top: 3px;
-  transition-duration: 1s;
-}
-.card12:hover #some-element {
-  position: relative;
-  margin-top: 3px;
-  transition-duration: 1s;
-  
-}
-
-@media only screen and (min-width: 1024px){
-    .container{
-        max-width: 100vw;
-        display: flex;
-        justify-content: center;
-        margin-top: 1vh;
-        
-    }
-    
-    .bulle {
->>>>>>> vic
         width: 55px;
         height: 55px;
         border-radius:50% ;
@@ -783,51 +452,11 @@ nav{
        
       /* DEBUT CSS PARTIE FOOTER + MEDIA QUERIES */
 
-    .card{
-      margin-left: 1%;
-      margin-right: 1%;
-    }
-    .card1{
-      margin-left: 1%;
-      margin-right: 1%;
-    }
-    .card12{
-      margin-left: 1%;
-      margin-right: 1%;
-    }
-    .card:hover #some-element {
-      position: relative;
-      margin-top: 3px;
-      transition-duration: 1s;
-    }
-    .card1:hover #some-element {
-      position: relative;
-      margin-top: 3px;
-      transition-duration: 1s;
-    }
-    .card12:hover #some-element {
-      position: relative;
-      margin-top: 3px;
-      transition-duration: 1s;
-      
-    }
-
-
-/* INSTA STORY BAR ENDS HERE-----------------------------*/
 
      
 
       /* FIN CSS PARTIE FOOTER + MEDIA QUERIES */
 
-<<<<<<< HEAD
 /* DEBUT CSS PARTIE NAV BAR + MEDIA QUERIES */
 
 /* This is the code for the NAV BAR */
-=======
-<<<<<<< HEAD
-/* INSTA STORY BAR ENDS HERE*/
-
-/* FIN CSS PARTIE NAVBAR + MEDIA QUERIES */
-=======
->>>>>>> vic
->>>>>>> vic
