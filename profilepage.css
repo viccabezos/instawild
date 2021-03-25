@@ -15,19 +15,27 @@ box-sizing: border-box;
   display: grid;
   grid-template-columns: 1fr 2fr;
   column-gap: 10px;
+  margin-bottom: 5%;
 
   
 }
 
 .DESCRIPTION-STUDENT >li{
   list-style: none;
-  
+
+}
+
+.DESCRIPTION-STUDENT{
+  padding-left: 0;
+
+
 }
   
 .PHOTO {   
-      width: 100%;
+      width: 80%;
       border-radius: 50%;
-      padding:10%;
+      margin-left: 10%;
+ 
   }
 
 
@@ -39,7 +47,7 @@ box-sizing: border-box;
 
   .NAME-STUDENT{
     font-size: larger;
-    color: chocolate;
+    color: black;
     font-weight: bolder;
   }
 
@@ -66,6 +74,105 @@ box-sizing: border-box;
 }
 
 
+/* MODIFS MEDIA QUERIES IPAD */
+
+@media screen and (min-width: 768px){
+  body {
+    padding: 0;
+    margin: 0;
+  
+  }
+
+
+.DESCRIPTION-STUDENT{
+  padding-left: 0;
+    margin-top: -40px;
+
+}
+}
+
+
+/* MODIFS MEDIA QUERIES LAPTOP 1200 */
+/*
+
+*::after ::before { 
+       
+  box-sizing: border-box;
+  
+  }
+   body {
+      padding: 0;
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+        }
+
+  .grid-container{
+    margin-left: 25%;
+  }
+  
+  .photo-description{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+    margin-bottom: 5%;
+  
+    
+  }
+  
+  .DESCRIPTION-STUDENT >li{
+    list-style: none;
+  
+  }
+  
+  .DESCRIPTION-STUDENT{
+    padding-left: 0;
+  
+  
+  }
+    
+  .PHOTO {   
+        width: 80%;
+        border-radius: 50%;
+        margin-left: 10%;
+   
+    }
+  
+  
+    .group-describ{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+  
+    .NAME-STUDENT{
+      font-size: larger;
+      color: black;
+      font-weight: bolder;
+    }
+  
+  .flex1photo{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  
+  .flex2photo{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .flex3photo{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .phoo{  
+    width: px;
+    padding: 2px;
+  }
+  */
 
 /* CSS NAVBAR*/
 
