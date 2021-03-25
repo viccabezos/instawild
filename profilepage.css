@@ -91,6 +91,44 @@ box-sizing: border-box;
 }
 }
 
+@media screen and (min-width: 1024px){
+  body {
+    padding: 0;
+    margin: 0;
+  
+  }
+
+
+.DESCRIPTION-STUDENT{
+  padding-left: 0;
+    margin-top: -40px;
+}
+
+.grid-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+  margin-left: 27.5%;
+
+}
+
+.group-describ{
+text-align: center;
+}
+
+.group-describ .NAME-STUDENT{
+  padding-bottom: 10%;
+}
+
+.group-describ .DESCRIPTION-STUDENT {
+  text-align: left;
+}
+
+
+}
+
+
 
 /* MODIFS MEDIA QUERIES LAPTOP 1200 */
 /*
@@ -234,7 +272,7 @@ nav{
       overflow-x: hidden;
   }
   .nav-links{
-      position: absolute;
+      position: fixed;
       right: 0px;
       height: 30vh;
       top: 8vh;
