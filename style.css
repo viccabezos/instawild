@@ -73,6 +73,8 @@
       .description p {
         margin: 0;
       }
+
+      }
      
 /* CHANGE SCREEN WITH TABLETS */
 
@@ -132,6 +134,7 @@
       .student p {
         padding-bottom: 6rem;
       }
+
 
       }
 
@@ -243,6 +246,7 @@
         padding-right:10%;
       }
       
+      
       }
 
       /* This is the code for the NAV BAR */
@@ -317,6 +321,7 @@
         .burger {
             display: block;
         }
+
       }
       
       @media screen and (max-width: 1024px) {
@@ -392,8 +397,7 @@
       padding-left: 1%;
       padding-right: 1%;
       }
-     
-      
+
       @media only screen and (min-width: 768px) {
         .container{
           display: flex;  
@@ -413,6 +417,9 @@
           margin-left: 1%;
           margin-right: 1%;
         }
+
+      }
+        
       
       @media only screen and (min-width: 1024px){
         .container{
@@ -444,6 +451,9 @@
           margin-left: 1%;
           margin-right: 1%;
         }
+
+     
+      }
       
       
       /* INSTA STORY BAR ENDS HERE-----------------------------*/
