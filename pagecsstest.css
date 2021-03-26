@@ -209,7 +209,7 @@
     
     /* MODIFS MEDIA QUERIES IPAD */
     
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
       body {
         padding: 0;
         margin: 0;
@@ -227,7 +227,7 @@
         margin-bottom: 20px;
     }
 
-
+    }
     
     @media screen and (min-width: 1024px){
       body {
@@ -263,7 +263,7 @@
       text-align: left;
     }
     
-      
+}
   
    
           /* FOOTER CSS */
@@ -279,6 +279,7 @@
         ul{
           list-style: none;
         }
+
         .footer{
           background-color: white;
             border-top: 10px solid #d34949;
