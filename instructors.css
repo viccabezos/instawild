@@ -441,16 +441,94 @@
         
         /* INSTA STORY BAR ENDS HERE-----------------------------*/
         
-         /* FIN CSS PARTIE STUDENT AVEC SCROLL DOWN + MEDIA QUERIES */
-         
-        /* DEBUT CSS PARTIE FOOTER + MEDIA QUERIES */
-  
-  
-       
-  
-        /* FIN CSS PARTIE FOOTER + MEDIA QUERIES */
-  
-  /* DEBUT CSS PARTIE NAV BAR + MEDIA QUERIES */
-  
-  /* This is the code for the NAV BAR */
-  
+                  /* FOOTER CSS */
+
+        .containerben{
+          max-width: 1170px;
+          margin:auto;
+        }
+        .row{
+          display: flex;
+          flex-wrap: wrap-reverse;
+        }
+        ul{
+          list-style: none;
+        }
+        .footer{
+          background-color: white;
+            border-top: 10px solid #d34949;
+        }
+        .footer-col{
+           width: auto;
+           padding: 0 15px;
+        }
+        .footer-col h3{
+          font-size: 20px;
+          color: #000000;
+          text-transform: capitalize;
+          margin-bottom: 35px;
+          position: relative;
+        }
+        .footer-col h3::before{
+          content: '';
+          position: absolute;
+          left:0;
+          bottom: -10px;
+          background-color: #e91e63;
+          height: 2px;
+          box-sizing: border-box;
+          width: 50px;
+        }
+        .footer-col ul li:not(:last-child){
+          margin-bottom: 10px;
+        }
+        .footer-col ul li a{
+          font-size: 16px;
+          text-transform: capitalize;
+          color: #ffffff;
+          text-decoration: none;
+          font-weight: 300;
+          color: #020101;
+          display: block;
+          transition: all 0.3s ease;
+        }
+        .footer-col ul li a:hover{
+          color: #d34949;
+          padding-left: 8px;
+        }
+        .footer-col .social-links a{
+          display: inline-block;
+          height: 40px;
+          width: 40px;
+          background-color: rgba(236, 121, 121, 0.534);
+          margin:0 10px 10px 0;
+          text-align: center;
+          line-height: 40px;
+          border-radius: 50%;
+          color: #ffffff;
+          transition: all 0.5s ease;
+        }
+        .footer-col .social-links a:hover{
+          color: #24262b;
+          background-color: #ffffff;
+        }
+          
+        /*responsive*/
+        @media screen and (min-width: 768px) {
+          .footer-col{
+            width: auto;
+            margin-bottom: 30px;
+        }
+        }
+        @media screen and (min-width: 1024px){
+          .footer-col{
+            width: auto;
+        }
+        .row{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+        
+        }
+        }
+      
