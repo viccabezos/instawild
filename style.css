@@ -73,8 +73,6 @@
       .description p {
         margin: 0;
       }
-
-      }
      
 /* CHANGE SCREEN WITH TABLETS */
 
@@ -98,7 +96,7 @@
         grid-template-columns: 1fr 6fr 6fr 1fr ;
         padding-bottom: 1rem;
         padding-top:1rem;
-        border: 2px solid #dfdfdf;
+    
         margin-top:4%;
       
         }
@@ -134,7 +132,6 @@
       .student p {
         padding-bottom: 6rem;
       }
-
 
       }
 
@@ -178,9 +175,7 @@
         grid-column-start: 2;
         margin: 0;
         padding:0;
-        border-top: 2px solid #dfdfdf;
-        border-left: 2px solid #dfdfdf;
-        border-right: 2px solid #dfdfdf;
+
         padding-bottom: 5%;
         padding-top:5%;
         padding-left:5%;
@@ -194,8 +189,7 @@
         justify-self: center;
         margin: 0;
         padding: 0;
-        border-left: 2px solid #dfdfdf;
-        border-right: 2px solid #dfdfdf;
+
       }
      
       .student .logoslinks{
@@ -203,8 +197,7 @@
         grid-column-start: 2;
         margin: 0;
         padding-top: 3%;
-        border-left: 2px solid #dfdfdf;
-        border-right: 2px solid #dfdfdf;
+
       }
 
       .logotailles{
@@ -223,10 +216,7 @@
         grid-column-start: 3;
         margin: 0;
         padding:0;
-        border-left: 2px solid #dfdfdf;
-        border-right: 2px solid #dfdfdf;
-        border-bottom: 2px solid #dfdfdf;
-      
+ 
   
       }
    
@@ -245,7 +235,6 @@
         padding-left:10%;
         padding-right:10%;
       }
-      
       
       }
 
@@ -321,7 +310,6 @@
         .burger {
             display: block;
         }
-
       }
       
       @media screen and (max-width: 1024px) {
@@ -397,7 +385,8 @@
       padding-left: 1%;
       padding-right: 1%;
       }
-
+     
+      
       @media only screen and (min-width: 768px) {
         .container{
           display: flex;  
@@ -417,9 +406,6 @@
           margin-left: 1%;
           margin-right: 1%;
         }
-
-      }
-        
       
       @media only screen and (min-width: 1024px){
         .container{
@@ -451,9 +437,6 @@
           margin-left: 1%;
           margin-right: 1%;
         }
-
-     
-      }
       
       
       /* INSTA STORY BAR ENDS HERE-----------------------------*/
